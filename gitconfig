@@ -1,0 +1,7 @@
+[user]
+	name = Chris Cone
+	email = chris.cone@ou.edu
+[push]
+	default = simple
+[core]
+	editor = vim

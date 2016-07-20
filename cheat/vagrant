@@ -1,0 +1,26 @@
+Usage: vagrant [options] <command> [<args>]
+
+    -v, --version                    Print the version and exit.
+    -h, --help                       Print this help.
+
+----------------------------------------------
+
+vagrant box add <address>
+
+This adds a box into Vagrant from the given address.
+
+example: vagrant box add hashicorp/precise64
+
+----------------------------------------------
+
+vagrant box init <box name>
+
+This initializes the current directory to be a Vagrant environment. Creates a Vagrantfile.
+
+example: vagrant init hashicorp/precise64
+
+---------------------------------------------
+
+vagrant up
+
+Stands up the virtual box from the config in the Vagrantfile located in the current directory
