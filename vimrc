@@ -1,0 +1,3 @@
+set number
+
+cmap w!! w !sudo tee % >/dev/null
